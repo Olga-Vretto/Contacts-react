@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.input {
+    width: 100%;
+    border: 2px solid rgb(133, 200, 231);
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+}
+
+.btn {
+    border: 2px solid rgb(133, 200, 231);
+    padding: 0 25px;
+    background-color: transparent;
+    font-size: 20px;
+}   
+
+.green {
+    color: rgb(42, 178, 137);
+}
+
+.red {
+    color: rgb(219, 93, 93);
+}
+

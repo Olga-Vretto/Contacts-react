@@ -1,0 +1,33 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table {
+   margin-bottom: 15px;
+}
+
+.th {
+    border: 2px solid rgb(133, 200, 231);
+    padding: 5px 10px;
+}
+
+.user {
+    border: 2px solid rgb(133, 200, 231);
+    padding: 0 10px;
+}
+
+.btn-delete {
+    color: rgb(219, 93, 93);
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.add-btn {
+    width: 140px;
+    padding: 10px;
+    background-color: rgb(133, 200, 231);
+    border: none;
+    
+}
