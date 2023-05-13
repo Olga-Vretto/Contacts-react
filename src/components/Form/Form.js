@@ -35,18 +35,29 @@ class Form extends Component {
     e.preventDefault();
     this.props.closeForm()
   }
-
-    render() { 
+    render() {
         return (
-            <form  className='form'>
-              <Input/>
-             <div className='buttons'>
-             <button className='btn green' onClick={this.handleAddUser}>&#10004;</button>
-              <button className='btn red' onClick={this.handleClose}>&#10006;</button>
-             </div>
-            </form>
-        );
-    }
-}
- 
-export default Form;
+              <form className='form'>
+                  <Input
+                    firstName={this.state.firstName}
+                    lastName={this.state.lastName}
+                    phone={this.state.phone}
+                    handleChange={this.handleChange}
+                  />
+                  <div className='buttons'>
+                    <button className='btn green' onClick={this.handleAddUser}>&#10004;</button>
+                    <button className='btn red' onClick={this.handleClose}>&#10006;</button>
+                  </div>
+                </form>
+                );
+              }
+            }
+          
+    export default Form;
+          
+          
+          
+          
+          
+          
+          
